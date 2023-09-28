@@ -37,7 +37,6 @@ Usage of blue bikes on weekdays and weekends
 Most popular stations
 
 ## MODEL DEVELOPMENT
-You can enter a subtitle here if you need it
 
 Models under examination: 
 Decision Tree, Random Forest, Gradient Boosting, and Logistic Regression.​​
@@ -50,21 +49,18 @@ Processes undertaken include data preprocessing, model training and evaluation, 
 
 Performance insights were gathered from measures such as accuracy, precision, recall, F1-score, and the confusion matrix.
 
-
 The ROC curve depicts the model's capacity to differentiate between rush hour and non-rush hour bike rides.
 
 AUC value of 0.59 indicates moderate discriminatory power.
 
-
 The AUC value is 0.602, marginally above the line of randomness.
 
-
 AUC score between 0.58 and 0.59 indicates that the models have some ability to discriminate between rush hour and non-rush hour bike trips, but there is room for improvement. 
 
 ## INTERPRETATIONS 
 
 Predicting peak hour bike trips based on provided attributes is challenging.
-Models demonstrated modest predictive performance, with accuracies ranging from 56.8%       to 59.09%.
+Models demonstrated modest predictive performance, with accuracies ranging from 56.8% to 59.09%.
 Additional data or advanced modeling techniques may be required for better predictions.
 Logistic Regression emerged as the most accurate model, making it the preferred choice.
 Enhance resource allocation and improve services for Blue Bikes users.
