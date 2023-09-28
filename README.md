@@ -25,8 +25,7 @@ The dataset comprises 1,048,575 rows and 14 columns
 Data Quality: Addressing the following
 Missing Data
 Duplications
-Outliers and Suspicious Data       
-
+Outliers and Suspicious Data
 
 Average trip duration for subscribers and customers
 
@@ -52,10 +51,10 @@ Performance insights were gathered from measures such as accuracy, precision, re
 The ROC curve depicts the model's capacity to differentiate between rush hour and non-rush hour bike rides.
 
 AUC value of 0.59 indicates moderate discriminatory power.
-
+
 The AUC value is 0.602, marginally above the line of randomness.
-
-AUC score between 0.58 and 0.59 indicates that the models have some ability to discriminate between rush hour and non-rush hour bike trips, but there is room for improvement. 
+
+AUC score between 0.58 and 0.59 indicates that the models have some ability to discriminate between rush hour and non-rush hour bike trips, but there is room for improvement.
 
 ## INTERPRETATIONS 
 
