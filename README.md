@@ -1,7 +1,9 @@
 # BlueBikes-Analysis-and-Prediction- 2022 and 2023 Q1
 
-"""
-**PART 1**
+
+# PART 1
+
+## Boston Blue Bikes Data Analysis 2022
 
 Blue Bikes is a public bicycle sharing system in the Boston area. It serves as a convenient and eco-friendly transportation alternative for thousands of residents and tourists.
 
@@ -13,24 +15,17 @@ The dataset used for this project is sourced from Blue Bikes' official website. 
 Role of Big Data: 
 Big data aids in comprehending user behaviors and usage patterns, enabling effective demand forecasting and resource planning. It powers predictive modeling to anticipate demand and facilitates service improvement strategies by identifying high-traffic stations and popular ride times.
 
-## 01
-Recommendations
+
 
 ## EXPLORATORY DATA ANALYSIS
-01
 
 Dataset Entries:
 The dataset comprises 1,048,575 rows and 14 columns
 
-Data Quality:
+Data Quality: Addressing the following
 Missing Data
-      The "postal code" column has a significant number of missing values, specifically 110,793 entries. 
-      However, the rest of the dataset columns do not have any missing values.
 Duplications
-       Dataset does not contain any duplicate rows, ensuring the uniqueness of each observation.
-Outliers and Suspicious Data
-       The "tripduration" column exhibits numerous outliers, indicating the presence of 
-       unusually long or short trips compared to the majority of rides.                
+Outliers and Suspicious Data       
 
 
 Average trip duration for subscribers and customers
@@ -67,7 +62,6 @@ The AUC value is 0.602, marginally above the line of randomness.
 AUC score between 0.58 and 0.59 indicates that the models have some ability to discriminate between rush hour and non-rush hour bike trips, but there is room for improvement. 
 
 ## INTERPRETATIONS 
-03
 
 Predicting peak hour bike trips based on provided attributes is challenging.
 Models demonstrated modest predictive performance, with accuracies ranging from 56.8%       to 59.09%.
@@ -76,16 +70,7 @@ Logistic Regression emerged as the most accurate model, making it the preferred 
 Enhance resource allocation and improve services for Blue Bikes users.
 Improve operational efficiency and customer satisfaction.
 
-
-RECOMMENDATIONS
-
-##  CONCLUSION
-
-04
-
-CONCLUSION
-
-TECHNIQUE
+##  TECHNIQUE
 
 Data Cleaning
 
@@ -97,9 +82,9 @@ Predictive Modeling
 
 Model Evaluation
 
-**PART 2**
+# PART 2
 
-# Bluebikes Data Analysis (Q1 2023)
+## Bluebikes Data Analysis (Q1 2023)
 
 This project provides a comprehensive analysis of the Bluebikes trip data for the first quarter of 2023. The main goal is to derive insights about how people use bicycles in Boston.
 
@@ -124,6 +109,6 @@ The dataset contains information about individual bicycle trips, including:
 
 Feel free to contribute to this analysis by creating pull requests or opening issues.
 
-"""
+
 
 
